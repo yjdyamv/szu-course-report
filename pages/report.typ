@@ -14,16 +14,23 @@
 
   align(center)[#text(font: 字体.宋体, size: 字号.二号)[深圳大学期末课程报告]]
 
+  v(23pt)
+
   align(center)[#text(font: 字体.宋体, size: 字号.二号, weight: "bold")[个人成绩]]
 
   set table.hline(stroke: .6pt)
-  table(columns: (), rows: (),
+
+  v(23pt)
+  
+  // 报告个人信息
+  align(center)[
+    #set text(font: 字体.宋体, size: 字号.小四)
+    #table(columns: (), rows: (), 
     [序号], [学号], [姓名], [成绩], 
-    [1], [], [], [], 
-  )
+    [1], [#学号], [#姓名], [], 
+  )]
 
-
+  // 
 
 }
-
 
